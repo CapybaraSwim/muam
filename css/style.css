@@ -1,0 +1,317 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+button, input[type="submit"] {
+  cursor: pointer;
+  background: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #323232;
+  background-color: #000;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.title__orange {
+  color: #FF4900;
+}
+
+.title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-size: 140px;
+  line-height: 100px;
+  text-transform: lowercase;
+  color: #fff;
+}
+.title p:first-child {
+  padding-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 54px;
+  border: 2px solid #FF4900;
+  padding: 14px 45px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.button:hover {
+  background-color: #FF4900;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 44px;
+          column-gap: 44px;
+  font-family: 'Proxima Nova';
+  font-size: 18px;
+  position: relative;
+}
+.points img {
+  position: absolute;
+  margin-top: -25px;
+}
+.points .number {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  margin-left: -5px;
+  color: #FF4900;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.pretitle {
+  padding-bottom: 40px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.navigation-list {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.navigation-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation-list li {
+  margin-left: 40px;
+}
+.navigation-list a:hover {
+  color: #FF4900;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.nav__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 61px 90px 61px 90px;
+}
+
+.logo img {
+  width: 57.5px;
+  height: 20px;
+}
+
+.key {
+  position: relative;
+  padding-left: 132px;
+}
+
+.key-background__img {
+  position: absolute;
+  width: 100%;
+  right: -10px;
+  top: -155px;
+}
+
+.key-background__img img {
+  z-index: 0;
+}
+
+.key__title {
+  position: relative;
+  z-index: 1;
+}
+
+.key__content {
+  position: relative;
+  padding-top: 90px;
+  z-index: 1;
+}
+
+.key__img {
+  padding: 62px 82px 0px 0px;
+  z-index: 1;
+}
+
+.key__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 177px;
+          column-gap: 177px;
+}
+
+.key__content {
+  position: relative;
+}
+.key__content p:first-child {
+  padding-bottom: 40px;
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  width: 265px;
+  z-index: 1;
+}
+.key__content .price {
+  padding-bottom: 60px;
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  z-index: 1;
+}
+
+.problems {
+  margin-top: 166px;
+  padding: 0px 132px;
+}
+
+.problems__title {
+  font-size: 120px;
+  padding-bottom: 112px;
+  line-height: 84px;
+}
+
+.problems__row {
+  padding-bottom: 118px;
+}
+
+.unkillable {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 118px;
+  padding-bottom: 58px;
+}
+
+.unkillable__container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.cent {
+  text-align: center;
+}
+
+.ukillable__title p:first-child {
+  padding-bottom: 40px;
+}
+
+.unkillable_img {
+  position: relative;
+  z-index: 1;
+  padding: 70px 448px 0px 447px;
+}
+
+.unkillable-background__image {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  right: -460px;
+  top: -50px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 122, 122, 0.3);
+  border-radius: 8px;
+  border: 2px solid rgba(159, 159, 159, 0.653);
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url("../fonts/gilroy/SVN-GilroyLight.woff2") format("woff2"), url("../fonts/gilroy/SVN-GilroyLight.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/gilroy/gilroy-bold/Gilroy-Bold.woff2") format("woff2"), url("../fonts/gilroy/gilroy-bold/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/proxima-nova/proxima-nova-bold/hneggppdfobmfeppgkglpfhnnicafonh.woff2") format("woff2"), url("../fonts/proxima-nova/proxima-nova-bold/hneggppdfobmfeppgkglpfhnnicafonh.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proxima-nova/proxima-nova-light/amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("../fonts/proxima-nova/proxima-nova-light/amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
