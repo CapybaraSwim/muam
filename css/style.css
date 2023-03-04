@@ -243,7 +243,6 @@ body {
   z-index: 1;
   overflow: hidden;
   padding-top: 118px;
-  padding-bottom: 58px;
 }
 
 .unkillable__container {
@@ -285,6 +284,40 @@ body {
   background: rgba(122, 122, 122, 0.3);
   border-radius: 8px;
   border: 2px solid rgba(159, 159, 159, 0.653);
+}
+
+.pencil {
+  margin: 240px 224px 0px 133px;
+}
+
+.pencil__title {
+  padding-bottom: 80px;
+  font-size: 120px;
+  line-height: 84px;
+}
+
+.pencil__row_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 120px;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+}
+
+.pencil__text {
+  width: 450px;
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.pencil__row_img {
+  padding-right: 224px;
 }
 
 @font-face {
